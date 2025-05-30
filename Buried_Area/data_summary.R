@@ -3,7 +3,7 @@ library(tidyverse)          # ggplot2, readr, dplyr, tidyr, etc.
 # ────────────────────────────────────────────────────────────
 # 1.  Load & reshape data
 # ────────────────────────────────────────────────────────────
-df <- read_csv("interface_areas_binary.csv",
+df <- read_csv("interface_areas_ternary_fixed.csv",
                show_col_types = FALSE) %>%
   rename(model = 1)
 
